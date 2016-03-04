@@ -18,6 +18,7 @@ function initMap() {
     latitude = event.latLng.lat()
     longitude = event.latLng.lng()
     geocodeLatLng(geocoder, map)
+
   })
 }
 
@@ -44,5 +45,6 @@ function geocodeLatLng(geocoder, map){
   geocoder.geocode( {'location': latlng}, function (results, status) {
     console.log(results[0].formatted_address)
     address = results[0].formatted_address
+    document.getElementById('address').value = address
   })
 }
