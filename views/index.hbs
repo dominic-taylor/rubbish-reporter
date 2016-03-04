@@ -6,12 +6,16 @@
 
 <div class="entry">
   <h4>choose a location:</h4>
-  <input placeholder="{{lat}}" type="text" name="lat" id="lat" />
-  <input placeholder="{{long}}" type="text" name="long" id="long" />
+  <form>
+  <input placeholder="latitude" value="{{lat}}" type="text" name="lat" id="lat" />
+  <input placeholder="long" value="{{long}}" type="text" name="long" id="long" />
+  <input placeholder="address" value="{{adr}}" type="text" name="adr" id="address" />
+
   <h4>Type a description:</h4>
     <p><input placeholder="description" type="text" name="description" id="description" size='80'></p>
+  </form>
   <nav>
-  <a class="link" href="/">Report</a> /
+  <a class="link" href="/">Clear</a> /
   <a class="link" href="/submit">Submit</a>
 </nav>
 </div>

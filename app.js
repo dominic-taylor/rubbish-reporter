@@ -1,6 +1,6 @@
 var express = require('express');
- var path = require('path');
- var bodyParser = require('body-parser');
+var path = require('path');
+var bodyParser = require('body-parser');
 
 var app = express();
 
@@ -25,7 +25,6 @@ res.redirect ('index')
 })
 
 app.get('/index', function (req, res){
-
 res.render ('index', geoTag)
 })
 
@@ -33,6 +32,7 @@ app.get('/submit', function (req, res){
   //console.log(geoTag)
 res.render ('submit')
 })
+
 
 
 module.exports = app;
