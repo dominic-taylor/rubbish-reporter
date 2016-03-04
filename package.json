@@ -1,0 +1,33 @@
+{
+  "name": "Rubbish_Reporter",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "description": "This is a karearea 2016 first group project.",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "fs": "0.0.2",
+    "google-maps": "^3.2.1",
+    "hbs": "^4.0.0",
+    "http": "0.0.0",
+    "path": "^0.12.7",
+    "superagent": "^1.7.2",
+    "tape": "^4.5.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dominic-taylor/rubbish-reporter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dominic-taylor/rubbish-reporter/issues"
+  },
+  "homepage": "https://github.com/dominic-taylor/rubbish-reporter#readme"
+}
